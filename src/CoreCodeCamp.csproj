@@ -10,9 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="automapper.extensions" Version="2.1.0" />
+    <PackageReference Include="automapper.extensions.microsoft.dependencyinjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
 </Project>
